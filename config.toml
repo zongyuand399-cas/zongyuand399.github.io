@@ -1,0 +1,77 @@
+[site]
+title = "Zongyuan Deng"
+description = "Recent Master’s Graduate, University of Nottingham Ningbo China"
+favicon = "/favicon.svg"
+last_updated = "Feb 26, 2026"
+
+[author]
+name = "Zongyuan Deng"
+title = "Recent Master’s Graduate"
+institution = "University of Nottingham Ningbo China"
+avatar = "/bio.jpg"
+
+[social]
+email = "dzy399@1005.com"
+location = "Tianjin, China"
+location_url = "https://maps.google.com"
+location_details = [
+  "Room 123, Science Building,",
+  "University Avenue, City, Country"
+]
+google_scholar = "https://scholar.google.com"
+orcid = "https://orcid.org/0009-0009-4300-5358"
+github = "https://github.com"
+linkedin = "https://www.linkedin.com/in/zongyuan-castiel-deng/"
+
+[features]
+enable_likes = true
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["zh", "en"]
+default_locale = "en"
+mode = "auto"
+fixed_locale = "en"
+persist = true
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Research"
+type = "page"
+target = "research"
+href = "/research"
+
+[[navigation]]
+title = "Teaching"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "external"
+target = "_blank"
+href = "/cv_zongyuan_deng.pdf"
